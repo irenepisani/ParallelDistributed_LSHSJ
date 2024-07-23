@@ -1,10 +1,10 @@
-University of Pisa, UNIPI \
-M.Sc. Computer science, Artificial Intelligence \
-Academic year 2023/2024
+> ##### University of Pisa, UNIPI \
+> ##### M.Sc. Computer science, Artificial Intelligence \
+
 
 # Parallel and Distributed Systems: Paradigms and Models
-###### Professors: Massimo Torquati, Marco Danelutto
-
+#### Professor: M. Torquati, M. Danelutto
+#### Academic year: 2023/2024
 
 ## [Project 3](Project 3) : 
 ### Project 3: LSH-based similarity join
