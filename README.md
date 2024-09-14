@@ -52,13 +52,13 @@ Locality-Sensitive Hashing (LSH) improves efficiency by hashing tuples into buck
 /LSH
   ├── src
   │   ├── lshseq.cpp        # Brute-force LSH implementation
-  │   ├── parallel_lsh.cpp   # Parallel version using FastFlow and MPI
+  │   └── parallel_lsh.cpp   # Parallel version using FastFlow and MPI
   ├── datasets
   │   ├── taxi1.dat          # Tiny dataset for quick testing
   │   ├── taxi2.dat          # Tiny dataset for quick testing
   │   ├── lsh1GB.dat         # Large synthetic dataset
   │   ├── lsh5GB.dat         # Larger synthetic dataset
-  │   ├── lsh10GB.dat        # Largest synthetic dataset
+  │   └── lsh10GB.dat        # Largest synthetic dataset
   ├── Makefile               # Makefile for compiling the source code
   ├── CMakeLists.txt         # CMake configuration
   ├── run_tests.slurm        # SLURM script for running performance tests
