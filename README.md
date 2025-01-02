@@ -7,7 +7,7 @@
 **Professor:** M. Torquati, M. Danelutto \
 **Academic year:** 2023/2024 
 
-## LSH-based similarity join
+## LSH-based Similarity Join
 
   * **Project Delivery:** [`Delivery.pdf`](Delivery.pdf)
   * **Project Report:** [`Report.pdf`](Report.pdf)
@@ -50,17 +50,34 @@ Locality-Sensitive Hashing (LSH) improves efficiency by hashing tuples into buck
 
 ```
 /LSH
+  ├── build/                 
+  │   ├── lshsj_ff           # Executable for FF parallel version
+  │   ├── lshsj_mpi          # Executable for MPI parallel version
+  │   └── lshsj_seq          # Executable for sequential version
   ├── src
-  │   ├── lshseq.cpp        # Brute-force LSH implementation
-  │   └── parallel_lsh.cpp   # Parallel version using FastFlow and MPI
+  │   ├── lshsj_ff.cpp       # Parallel implementation with FF
+  │   ├── lshsj_mpi.cpp      # Parallel implementation with MPI
+  │   └── lshsj_seq.cpp      # Sequential implementation
+  ├── outputs/
+      ├── taxi1.dat          # Tiny dataset for quick testing
+  │   ├── taxi2.dat          # Tiny dataset for quick testing
+  │   ├── lsh1GB.dat         # Small synthetic dataset
+  │   ├── lsh5GB.dat         # Medium synthetic dataset
+  │   └── lsh10GB.dat        # Large synthetic dataset
+  ├── results/
+      ├── lsh5GB.dat         # Medium synthetic dataset
+  │   └── lsh10GB.dat        # Large synthetic dataset 
   ├── datasets
   │   ├── taxi1.dat          # Tiny dataset for quick testing
   │   ├── taxi2.dat          # Tiny dataset for quick testing
-  │   ├── lsh1GB.dat         # Large synthetic dataset
-  │   ├── lsh5GB.dat         # Larger synthetic dataset
-  │   └── lsh10GB.dat        # Largest synthetic dataset
-  ├── Makefile               # Makefile for compiling the source code
-  ├── CMakeLists.txt         # CMake configuration
+  │   ├── lsh1GB.dat         # Small synthetic dataset
+  │   ├── lsh5GB.dat         # Medium synthetic dataset
+  │   └── lsh10GB.dat        # Large synthetic dataset
+  ├── MakeFile               # Makefile for compiling the source code
+  ├── MakeFile               # Makefile for compiling the source code
+  ├── test_seq.sh            # bash file to run sequential test with SLURM
+  ├── test_ff.sh             # bash file to run FF test with SLURM
+  ├── test_mpi.sh            # bash file to run MPI test with SLURM
   ├── run_tests.slurm        # SLURM script for running performance tests
   ├── README.md              # This README file
   └── docs
