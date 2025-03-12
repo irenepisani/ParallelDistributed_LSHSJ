@@ -1,0 +1,9 @@
+build/LSHSJ_mpi_omp	datasets/lsh1GB.dat	1	1	9956009	4.20286	11.26	86.9892	
+build/LSHSJ_mpi_omp	datasets/lsh1GB.dat	1	1	9956009	4.17067	9.60088	86.2069	
+build/LSHSJ_mpi_omp	datasets/lsh1GB.dat	1	1	9956009	4.16736	9.76394	86.261	
+build/LSHSJ_mpi_omp	datasets/lsh5GB.dat	1	1	49742981	20.7989	59.9653	481.992	
+build/LSHSJ_mpi_omp	datasets/lsh5GB.dat	1	1	49742981	14.124	56.1267	470.709	
+build/LSHSJ_mpi_omp	datasets/lsh5GB.dat	1	1	49742981	14.1053	58.868	478.927	
+build/LSHSJ_mpi_omp	datasets/lsh10GB.dat	1	1	99482711	38.4988	114.017	1119.96	
+build/LSHSJ_mpi_omp	datasets/lsh10GB.dat	1	1	99482711	28.889	112.297	1140.72	
+build/LSHSJ_mpi_omp	datasets/lsh10GB.dat	1	1	99482711	29.0443	120.032	1138.9	
