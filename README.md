@@ -22,7 +22,7 @@ A comprehensive analysis was addressed to explore performances, limitations, and
 ### Structure
 
 ```bash
- /scripts
+ /project
    │
    ├── build
    │   └── ...                # Executables files
