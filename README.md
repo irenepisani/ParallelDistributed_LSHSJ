@@ -73,7 +73,7 @@ Install requirements and build the project as follow:
 Ensure SLURM is available on the used clusters and submit job-experiments with commands: 
 
    ```bash
-   cd test
+   cd tests
    sbatch test_seq.sh  # run sequential test
    sbatch test_ff.sh   # run FF test
    sbatch test_mpi.sh  # run MPI test
