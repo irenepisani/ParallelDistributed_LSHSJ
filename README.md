@@ -83,11 +83,11 @@ Ensure SLURM is available on the used clusters and submit job-experiments with c
 
 Change framework paramaters directly in source code in order to set desidered values based on the used datasets. 
 - **Tiny Datasets**: `taxi1.dat`, `taxi2.dat` for quick testing.
-  - Threshold (λ): 0.01
-  - LSH Resultion: 10
+  - Threshold (λ): 0.08
+  - LSH Resultion: 0.01
 - **Synthetic Datasets**: `lsh1GB.dat`, `lsh5GB.dat`, `lsh10GB.dat` for performance evaluation.
   - [Dataset generation](https://github.com/nicolotonci/FF-LSHSJ/blob/fc0c22c3cfb8d17c70468d4672d3bf791dae66bf/examples/Frechet/datasets/generate.py)
-  - Threshold (λ): 0.01
+  - Threshold (λ): 80
   - LSH Resultion: 10
 
 ---
